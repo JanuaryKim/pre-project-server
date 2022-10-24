@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://pre-project-server.cbavrlzuwalf.ap-northeast-2.rds.amazonaws.com:3306/mysql-test?serverTimezone=UTC&characterEncoding=UTF-8
+    url: jdbc:mysql://pre-project-server.cbavrlzuwalf.ap-northeast-2.rds.amazonaws.com:3306/main?serverTimezone=UTC&characterEncoding=UTF-8
     username: admin
     password: ${DB_PWD}
 
